@@ -123,8 +123,8 @@ def main(args):
     # models
     GROUNDING_DINO_CONFIG = args.groundingdino_model_config #"grounding_dino/groundingdino/config/GroundingDINO_SwinT_OGC.py"
     GROUNDING_DINO_CHECKPOINT = args.groundingdino_checkpoint #"gdino_checkpoints/groundingdino_swint_ogc.pth"
-    BOX_THRESHOLD = 0.3
-    TEXT_THRESHOLD = 0.2
+    BOX_THRESHOLD = args.box_threshold
+    TEXT_THRESHOLD = args.text_threshold
     sam2_checkpoint = args.sam2_checkpoint
     sam2_model_cfg = args.sam2_model_config
 
@@ -305,6 +305,8 @@ if __name__ == "__main__":
     parser.add_argument("--sam2-checkpoint", default="ckpts/grounded_sam2/sam2.1_hiera_large.pt")
     parser.add_argument("--sam2-model-config", default="configs/sam2.1/sam2.1_hiera_l.yaml")
     parser.add_argument("--output-dir", default="outputs/GroundedSAM2/")
+    parser.add_argument("--text-threshold",type=float, default=0.35)
+    parser.add_argument("--box-threshold",type=float, default=0.35)
     parser.add_argument("--rerun", default=False)
     parser.add_argument("--saturation", type=float, default=1.0)
     parser.add_argument("--contrast", type=float, default=1.0)
