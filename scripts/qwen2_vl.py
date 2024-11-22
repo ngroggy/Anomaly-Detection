@@ -41,6 +41,7 @@ def main(args):
     model_id = args.qwen2_model
     device = "cuda" if torch.cuda.is_available() and not args.force_cpu else "cpu"
     device_map = "auto" if device == "cuda" else "cpu"
+    prompt = args.text_prompt
     saturation = args.saturation
     contrast = args.contrast
     sharpness = args.sharpness
@@ -98,10 +99,9 @@ def main(args):
             
 
             image_dict = {"full": image_path, "crop": image_crop_path, "black": image_black_path}
-            
-            for key, img_path in image_dict.items():
+            print(f"Processing image: {filename}\n")
 
-                print(f"Processing image: {filename} - [{key}]")
+            for key, img_path in image_dict.items():
 
                 # Prepare the output JSON file
                 output_file = os.path.join(output_folder, key, 'predictions.json')
@@ -122,13 +122,7 @@ def main(args):
                                 "type": "image",
                                 "image": img_path,
                             },
-                            {"type": "text", "text": \
-                                "This is an image of a trench that has been dug by an excavator. \
-                                You are a professional anomaly detection tool that detects objects that could prevent an excavator from digging. \
-                                If you see part of the excavator bucket or arm you ignore it. \
-                                Common examples of anomalies are pipes, cables, tools for construction, boulders, and barriers. \
-                                But there are more types of anomalies that can be in the trench.\
-                                The output you professionally produce are the english names of anomalies in the trench separated by commas."},
+                            {"type": "text", "text": prompt},
                         ],
                     }
                 ]
@@ -148,7 +142,7 @@ def main(args):
 
                 # Inference: Generation of the output
                 # start = time.time()
-                generated_ids = model.generate(**inputs, max_new_tokens=40)
+                generated_ids = model.generate(**inputs, max_new_tokens=20)
 
                 generated_ids_trimmed = [
                     out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
@@ -158,7 +152,7 @@ def main(args):
                     generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
                 )
                 # print(f"Finished! Time taken for {filename}: ", time.time() - start, "seconds")
-                # print("\nOutput:\n", output_text[0])
+                print(f"Output {filename} - [{key}]:\n", output_text[0], "\n")
 
                 # Save the result to the output dictionary
                 output_data[filename] = output_text[0]
@@ -167,7 +161,7 @@ def main(args):
                 with open(output_file, 'w') as f:
                     json.dump(output_data, f, indent=4)
                 
-            # delete_files(image_path, image_crop_path, image_black_path)
+            delete_files(image_path, image_crop_path, image_black_path)
 
 
 if __name__ == "__main__":
