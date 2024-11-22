@@ -6,3 +6,5 @@ ckpts/*
 outputs/*
 
 **/__pycache__/** 
+
+gsam2_evaluate.sh
