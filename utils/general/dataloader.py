@@ -6,7 +6,6 @@ def delete_files(*file_paths):
     for file_path in file_paths:
         try:
             os.remove(file_path)
-            print(f"Deleted: {file_path}")
         except FileNotFoundError:
             print(f"File not found: {file_path}")
         except Exception as e:
