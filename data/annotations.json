@@ -1,0 +1,7415 @@
+[
+    {
+        "image_id": "0001.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 240,
+            "ymin": 234,
+            "xmax": 451,
+            "ymax": 383
+        }
+    },
+    {
+        "image_id": "0002.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 240,
+            "ymin": 238,
+            "xmax": 449,
+            "ymax": 385
+        }
+    },
+    {
+        "image_id": "0003.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 243,
+            "ymin": 237,
+            "xmax": 461,
+            "ymax": 398
+        }
+    },
+    {
+        "image_id": "0004.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 240,
+            "ymin": 233,
+            "xmax": 460,
+            "ymax": 391
+        }
+    },
+    {
+        "image_id": "0005.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 244,
+            "ymin": 232,
+            "xmax": 480,
+            "ymax": 401
+        }
+    },
+    {
+        "image_id": "0006.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 240,
+            "ymin": 233,
+            "xmax": 440,
+            "ymax": 383
+        }
+    },
+    {
+        "image_id": "0007.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 243,
+            "ymin": 234,
+            "xmax": 451,
+            "ymax": 368
+        }
+    },
+    {
+        "image_id": "0008.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 227,
+            "ymin": 228,
+            "xmax": 436,
+            "ymax": 388
+        }
+    },
+    {
+        "image_id": "0009.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 174,
+            "ymin": 232,
+            "xmax": 420,
+            "ymax": 402
+        }
+    },
+    {
+        "image_id": "0010.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 88,
+            "ymin": 230,
+            "xmax": 321,
+            "ymax": 405
+        }
+    },
+    {
+        "image_id": "0011.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 48,
+            "ymin": 236,
+            "xmax": 262,
+            "ymax": 405
+        }
+    },
+    {
+        "image_id": "0012.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 150,
+            "ymin": 231,
+            "xmax": 340,
+            "ymax": 382
+        }
+    },
+    {
+        "image_id": "0013.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 203,
+            "ymin": 230,
+            "xmax": 396,
+            "ymax": 399
+        }
+    },
+    {
+        "image_id": "0014.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 238,
+            "ymin": 234,
+            "xmax": 429,
+            "ymax": 379
+        }
+    },
+    {
+        "image_id": "0015.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 262,
+            "ymin": 236,
+            "xmax": 455,
+            "ymax": 374
+        }
+    },
+    {
+        "image_id": "0016.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 263,
+            "ymin": 231,
+            "xmax": 490,
+            "ymax": 445
+        }
+    },
+    {
+        "image_id": "0017.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 252,
+            "ymin": 224,
+            "xmax": 502,
+            "ymax": 448
+        }
+    },
+    {
+        "image_id": "0018.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 225,
+            "ymin": 228,
+            "xmax": 454,
+            "ymax": 444
+        }
+    },
+    {
+        "image_id": "0019.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 136,
+            "ymin": 231,
+            "xmax": 386,
+            "ymax": 463
+        }
+    },
+    {
+        "image_id": "0020.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 1,
+            "ymin": 236,
+            "xmax": 270,
+            "ymax": 468
+        }
+    },
+    {
+        "image_id": "0021.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 96,
+            "ymin": 229,
+            "xmax": 348,
+            "ymax": 473
+        }
+    },
+    {
+        "image_id": "0022.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 158,
+            "ymin": 226,
+            "xmax": 414,
+            "ymax": 460
+        }
+    },
+    {
+        "image_id": "0023.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 210,
+            "ymin": 233,
+            "xmax": 472,
+            "ymax": 472
+        }
+    },
+    {
+        "image_id": "0024.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 243,
+            "ymin": 232,
+            "xmax": 492,
+            "ymax": 437
+        }
+    },
+    {
+        "image_id": "0025.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 253,
+            "ymin": 230,
+            "xmax": 489,
+            "ymax": 451
+        }
+    },
+    {
+        "image_id": "0026.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 249,
+            "ymin": 233,
+            "xmax": 504,
+            "ymax": 498
+        }
+    },
+    {
+        "image_id": "0027.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 245,
+            "ymin": 230,
+            "xmax": 510,
+            "ymax": 495
+        }
+    },
+    {
+        "image_id": "0028.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 227,
+            "ymin": 225,
+            "xmax": 497,
+            "ymax": 475
+        }
+    },
+    {
+        "image_id": "0029.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 162,
+            "ymin": 228,
+            "xmax": 426,
+            "ymax": 484
+        }
+    },
+    {
+        "image_id": "0030.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 10,
+            "ymin": 231,
+            "xmax": 327,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0031.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 1,
+            "ymin": 236,
+            "xmax": 308,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0032.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 112,
+            "ymin": 228,
+            "xmax": 395,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0033.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 172,
+            "ymin": 226,
+            "xmax": 458,
+            "ymax": 495
+        }
+    },
+    {
+        "image_id": "0034.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 220,
+            "ymin": 224,
+            "xmax": 497,
+            "ymax": 501
+        }
+    },
+    {
+        "image_id": "0035.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 245,
+            "ymin": 233,
+            "xmax": 501,
+            "ymax": 482
+        }
+    },
+    {
+        "image_id": "0036.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 253,
+            "ymin": 233,
+            "xmax": 490,
+            "ymax": 479
+        }
+    },
+    {
+        "image_id": "0037.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 249,
+            "ymin": 234,
+            "xmax": 497,
+            "ymax": 493
+        }
+    },
+    {
+        "image_id": "0038.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 247,
+            "ymin": 228,
+            "xmax": 512,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0039.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 249,
+            "ymin": 231,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0040.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 244,
+            "ymin": 231,
+            "xmax": 512,
+            "ymax": 506
+        }
+    },
+    {
+        "image_id": "0041.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 208,
+            "ymin": 231,
+            "xmax": 512,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0042.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 120,
+            "ymin": 231,
+            "xmax": 421,
+            "ymax": 511
+        }
+    },
+    {
+        "image_id": "0043.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 29,
+            "ymin": 233,
+            "xmax": 352,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0044.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 140,
+            "ymin": 224,
+            "xmax": 417,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0045.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 184,
+            "ymin": 226,
+            "xmax": 480,
+            "ymax": 505
+        }
+    },
+    {
+        "image_id": "0046.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 256,
+            "ymin": 244,
+            "xmax": 510,
+            "ymax": 511
+        }
+    },
+    {
+        "image_id": "0047.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 252,
+            "ymin": 236,
+            "xmax": 512,
+            "ymax": 504
+        }
+    },
+    {
+        "image_id": "0048.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 247,
+            "ymin": 231,
+            "xmax": 512,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0049.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 252,
+            "ymin": 233,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0050.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 253,
+            "ymin": 235,
+            "xmax": 509,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0051.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 248,
+            "ymin": 235,
+            "xmax": 512,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0052.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 252,
+            "ymin": 234,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0053.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 249,
+            "ymin": 229,
+            "xmax": 512,
+            "ymax": 492
+        }
+    },
+    {
+        "image_id": "0054.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 252,
+            "ymin": 230,
+            "xmax": 512,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0055.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 248,
+            "ymin": 229,
+            "xmax": 512,
+            "ymax": 504
+        }
+    },
+    {
+        "image_id": "0056.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 253,
+            "ymin": 226,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0057.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 250,
+            "ymin": 228,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0058.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 253,
+            "ymin": 229,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0059.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 249,
+            "ymin": 229,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0060.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 246,
+            "ymin": 228,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0061.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 245,
+            "ymin": 230,
+            "xmax": 512,
+            "ymax": 500
+        }
+    },
+    {
+        "image_id": "0062.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 249,
+            "ymin": 230,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0063.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 252,
+            "ymin": 229,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0064.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 247,
+            "ymin": 234,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0065_e.png",
+        "anomalies_present": [
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 240,
+            "ymin": 233,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0066_e.png",
+        "anomalies_present": [
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 187,
+            "ymin": 228,
+            "xmax": 484,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0067_e.png",
+        "anomalies_present": [
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 85,
+            "ymin": 233,
+            "xmax": 358,
+            "ymax": 511
+        }
+    },
+    {
+        "image_id": "0068_e.png",
+        "anomalies_present": [
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 69,
+            "ymin": 233,
+            "xmax": 365,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0069_e.png",
+        "anomalies_present": [
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 170,
+            "ymin": 228,
+            "xmax": 430,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0070_e.png",
+        "anomalies_present": [
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 206,
+            "ymin": 229,
+            "xmax": 486,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0071.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 273,
+            "ymin": 234,
+            "xmax": 512,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0072.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 274,
+            "ymin": 223,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0073.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 280,
+            "ymin": 224,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0074.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 283,
+            "ymin": 233,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0075.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 286,
+            "ymin": 233,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0076.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 284,
+            "ymin": 235,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0077.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 284,
+            "ymin": 236,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0078_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 268,
+            "ymin": 209,
+            "xmax": 438,
+            "ymax": 347
+        }
+    },
+    {
+        "image_id": "0079_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 214,
+            "xmax": 432,
+            "ymax": 343
+        }
+    },
+    {
+        "image_id": "0080_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 245,
+            "ymin": 208,
+            "xmax": 454,
+            "ymax": 405
+        }
+    },
+    {
+        "image_id": "0081_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 245,
+            "ymin": 211,
+            "xmax": 504,
+            "ymax": 446
+        }
+    },
+    {
+        "image_id": "0082_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 238,
+            "ymin": 210,
+            "xmax": 491,
+            "ymax": 483
+        }
+    },
+    {
+        "image_id": "0083_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 215,
+            "ymin": 212,
+            "xmax": 473,
+            "ymax": 501
+        }
+    },
+    {
+        "image_id": "0084_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 145,
+            "ymin": 212,
+            "xmax": 416,
+            "ymax": 495
+        }
+    },
+    {
+        "image_id": "0085_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 22,
+            "ymin": 214,
+            "xmax": 334,
+            "ymax": 506
+        }
+    },
+    {
+        "image_id": "0086_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 45,
+            "ymin": 213,
+            "xmax": 354,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0087_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 150,
+            "ymin": 211,
+            "xmax": 418,
+            "ymax": 504
+        }
+    },
+    {
+        "image_id": "0088_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 199,
+            "ymin": 210,
+            "xmax": 469,
+            "ymax": 486
+        }
+    },
+    {
+        "image_id": "0089_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 213,
+            "xmax": 510,
+            "ymax": 489
+        }
+    },
+    {
+        "image_id": "0090_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 231,
+            "ymin": 211,
+            "xmax": 487,
+            "ymax": 492
+        }
+    },
+    {
+        "image_id": "0091_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 156,
+            "ymin": 210,
+            "xmax": 465,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0092_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 47,
+            "ymin": 216,
+            "xmax": 361,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0093_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 100,
+            "ymin": 215,
+            "xmax": 378,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0094_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 174,
+            "ymin": 210,
+            "xmax": 434,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0095_pe.png",
+        "anomalies_present": [
+            "pipe",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 219,
+            "ymin": 210,
+            "xmax": 452,
+            "ymax": 481
+        }
+    },
+    {
+        "image_id": "0096_pb.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 215,
+            "xmax": 476,
+            "ymax": 465
+        }
+    },
+    {
+        "image_id": "0097_pb.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 263,
+            "ymin": 213,
+            "xmax": 484,
+            "ymax": 480
+        }
+    },
+    {
+        "image_id": "0098_pb.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 209,
+            "xmax": 488,
+            "ymax": 471
+        }
+    },
+    {
+        "image_id": "0099_pb.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 211,
+            "xmax": 506,
+            "ymax": 496
+        }
+    },
+    {
+        "image_id": "0100_pb.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 252,
+            "ymin": 211,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0101_pb.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 210,
+            "ymin": 210,
+            "xmax": 471,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0102_pb.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 109,
+            "ymin": 208,
+            "xmax": 383,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0103_pb.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            "elongated object"
+        ],
+        "trench": {
+            "xmin": 123,
+            "ymin": 208,
+            "xmax": 377,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0104_pbbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plankpipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 184,
+            "ymin": 208,
+            "xmax": 438,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0105_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 222,
+            "xmax": 288,
+            "ymax": 511
+        }
+    },
+    {
+        "image_id": "0106_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 224,
+            "xmax": 281,
+            "ymax": 511
+        }
+    },
+    {
+        "image_id": "0107_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 48,
+            "ymin": 215,
+            "xmax": 324,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0108_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 120,
+            "ymin": 213,
+            "xmax": 386,
+            "ymax": 507
+        }
+    },
+    {
+        "image_id": "0109_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 176,
+            "ymin": 212,
+            "xmax": 423,
+            "ymax": 506
+        }
+    },
+    {
+        "image_id": "0110_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 224,
+            "ymin": 211,
+            "xmax": 494,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0111_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 234,
+            "ymin": 213,
+            "xmax": 502,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0112_pb.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank"
+        ],
+        "trench": {
+            "xmin": 240,
+            "ymin": 215,
+            "xmax": 493,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0113_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 217,
+            "xmax": 505,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0114_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 250,
+            "ymin": 218,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0115_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 252,
+            "ymin": 219,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0116_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 211,
+            "xmax": 495,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0117_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 208,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0118_pb.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank"
+        ],
+        "trench": {
+            "xmin": 231,
+            "ymin": 211,
+            "xmax": 488,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0119_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 193,
+            "ymin": 210,
+            "xmax": 456,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0120_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 130,
+            "ymin": 213,
+            "xmax": 406,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0121_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 74,
+            "ymin": 214,
+            "xmax": 346,
+            "ymax": 511
+        }
+    },
+    {
+        "image_id": "0122_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 124,
+            "ymin": 211,
+            "xmax": 393,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0123_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 198,
+            "ymin": 211,
+            "xmax": 456,
+            "ymax": 503
+        }
+    },
+    {
+        "image_id": "0124_pb.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank"
+        ],
+        "trench": {
+            "xmin": 229,
+            "ymin": 206,
+            "xmax": 477,
+            "ymax": 489
+        }
+    },
+    {
+        "image_id": "0125_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 238,
+            "ymin": 209,
+            "xmax": 495,
+            "ymax": 511
+        }
+    },
+    {
+        "image_id": "0126_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 214,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0127_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 212,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0128_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 216,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0129_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 216,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0130_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 217,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0131_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 215,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0132_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 215,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0133_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 218,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0134_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 216,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0135_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated objectpipe"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 206,
+            "xmax": 501,
+            "ymax": 480
+        }
+    },
+    {
+        "image_id": "0136_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 211,
+            "xmax": 512,
+            "ymax": 500
+        }
+    },
+    {
+        "image_id": "0137_p.png",
+        "anomalies_present": [
+            "pipe"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0138_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 211,
+            "ymin": 215,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0139_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 167,
+            "ymin": 209,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0140_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 95,
+            "ymin": 212,
+            "xmax": 352,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0141_pbe.png",
+        "anomalies_present": [
+            "pipe",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 219,
+            "xmax": 315,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0142_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 84,
+            "ymin": 216,
+            "xmax": 375,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0143_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 161,
+            "ymin": 211,
+            "xmax": 399,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0144_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 224,
+            "ymin": 215,
+            "xmax": 475,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0145_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank"
+        ],
+        "trench": {
+            "xmin": 238,
+            "ymin": 204,
+            "xmax": 486,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0146_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank"
+        ],
+        "trench": {
+            "xmin": 243,
+            "ymin": 211,
+            "xmax": 486,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0147_pcb.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank"
+        ],
+        "trench": {
+            "xmin": 248,
+            "ymin": 212,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0148_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 252,
+            "ymin": 208,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0149_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 213,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0150_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 213,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0151_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 207,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0152_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 216,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0153_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 255,
+            "ymin": 213,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0154_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 217,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0155_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 220,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0156_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 217,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0157_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 215,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0158_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 265,
+            "ymin": 213,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0159_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 263,
+            "ymin": 217,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0160_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 221,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0161_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 208,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0162_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 208,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0163_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 207,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0164_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 240,
+            "ymin": 208,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0165_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 197,
+            "ymin": 209,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0166_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 127,
+            "ymin": 214,
+            "xmax": 415,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0167_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 219,
+            "xmax": 314,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0168_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 208,
+            "xmax": 276,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0169_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 80,
+            "ymin": 206,
+            "xmax": 372,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0170_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 148,
+            "ymin": 201,
+            "xmax": 447,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0171_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 218,
+            "ymin": 203,
+            "xmax": 474,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0172_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 202,
+            "xmax": 504,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0173_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 262,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0174_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 204,
+            "xmax": 508,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0175_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 204,
+            "xmax": 499,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0176_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 201,
+            "xmax": 488,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0177_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 206,
+            "xmax": 494,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0178_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 213,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0179_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 263,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0180_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 265,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0181_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 263,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0182_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 267,
+            "ymin": 203,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0183_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 270,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0184_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0185_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 268,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0186_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 264,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0187_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 265,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0188_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 264,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0189_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 142,
+            "ymin": 205,
+            "xmax": 386,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0190_pcbe.png",
+        "anomalies_present": [
+            "pipe",
+            " cable",
+            " barrier plank",
+            " elongated object"
+        ],
+        "trench": {
+            "xmin": 73,
+            "ymin": 204,
+            "xmax": 341,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0191_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 56,
+            "ymin": 211,
+            "xmax": 368,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0192_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 146,
+            "ymin": 204,
+            "xmax": 400,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0193_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 202,
+            "ymin": 201,
+            "xmax": 436,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0194_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 250,
+            "ymin": 200,
+            "xmax": 460,
+            "ymax": 511
+        }
+    },
+    {
+        "image_id": "0195_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 270,
+            "ymin": 208,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0196_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 203,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0197_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 262,
+            "ymin": 208,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0198_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 211,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0199_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0200_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 209,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0201_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 210,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0202_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 201,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0203_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 187,
+            "ymin": 198,
+            "xmax": 440,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0204_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 147,
+            "ymin": 202,
+            "xmax": 389,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0205_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 96,
+            "ymin": 206,
+            "xmax": 354,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0206_b.png",
+        "anomalies_present": [
+            "barrier plank"
+        ],
+        "trench": {
+            "xmin": 28,
+            "ymin": 205,
+            "xmax": 332,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0207_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 167,
+            "ymin": 203,
+            "xmax": 375,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0208_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 209,
+            "ymin": 198,
+            "xmax": 414,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0209_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 245,
+            "ymin": 201,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0210_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 247,
+            "ymin": 199,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0211_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 240,
+            "ymin": 202,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0212_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 245,
+            "ymin": 200,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0213_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 251,
+            "ymin": 201,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0214_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 250,
+            "ymin": 205,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0215_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 197,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0216_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 263,
+            "ymin": 208,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0217_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0218_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 262,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0219_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 263,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0220_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 262,
+            "ymin": 205,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0221_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 262,
+            "ymin": 198,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0222_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0223_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 202,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0224_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 205,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0225_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 207,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0226_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 201,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0227_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 255,
+            "ymin": 202,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0228_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 246,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0229_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 247,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0230_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0231_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 207,
+            "xmax": 512,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0232_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 203,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0233_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 206,
+            "xmax": 496,
+            "ymax": 490
+        }
+    },
+    {
+        "image_id": "0234.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 256,
+            "ymin": 203,
+            "xmax": 484,
+            "ymax": 494
+        }
+    },
+    {
+        "image_id": "0235.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 252,
+            "ymin": 204,
+            "xmax": 488,
+            "ymax": 502
+        }
+    },
+    {
+        "image_id": "0236_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 235,
+            "ymin": 204,
+            "xmax": 480,
+            "ymax": 502
+        }
+    },
+    {
+        "image_id": "0237_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 192,
+            "ymin": 201,
+            "xmax": 453,
+            "ymax": 484
+        }
+    },
+    {
+        "image_id": "0238_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 141,
+            "ymin": 200,
+            "xmax": 393,
+            "ymax": 466
+        }
+    },
+    {
+        "image_id": "0239_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 86,
+            "ymin": 208,
+            "xmax": 353,
+            "ymax": 493
+        }
+    },
+    {
+        "image_id": "0240_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 20,
+            "ymin": 204,
+            "xmax": 301,
+            "ymax": 481
+        }
+    },
+    {
+        "image_id": "0241_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 69,
+            "ymin": 201,
+            "xmax": 333,
+            "ymax": 466
+        }
+    },
+    {
+        "image_id": "0242_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 147,
+            "ymin": 202,
+            "xmax": 374,
+            "ymax": 503
+        }
+    },
+    {
+        "image_id": "0243_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 205,
+            "ymin": 200,
+            "xmax": 416,
+            "ymax": 503
+        }
+    },
+    {
+        "image_id": "0244_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 244,
+            "ymin": 204,
+            "xmax": 456,
+            "ymax": 497
+        }
+    },
+    {
+        "image_id": "0245_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 248,
+            "ymin": 202,
+            "xmax": 459,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0246_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 255,
+            "ymin": 201,
+            "xmax": 478,
+            "ymax": 504
+        }
+    },
+    {
+        "image_id": "0247_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 255,
+            "ymin": 202,
+            "xmax": 461,
+            "ymax": 503
+        }
+    },
+    {
+        "image_id": "0248_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 262,
+            "ymin": 203,
+            "xmax": 468,
+            "ymax": 504
+        }
+    },
+    {
+        "image_id": "0249_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 201,
+            "xmax": 471,
+            "ymax": 446
+        }
+    },
+    {
+        "image_id": "0250_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 249,
+            "ymin": 197,
+            "xmax": 469,
+            "ymax": 453
+        }
+    },
+    {
+        "image_id": "0251_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 237,
+            "ymin": 197,
+            "xmax": 449,
+            "ymax": 465
+        }
+    },
+    {
+        "image_id": "0252_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 204,
+            "ymin": 199,
+            "xmax": 440,
+            "ymax": 467
+        }
+    },
+    {
+        "image_id": "0253_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 160,
+            "ymin": 202,
+            "xmax": 372,
+            "ymax": 480
+        }
+    },
+    {
+        "image_id": "0254_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 114,
+            "ymin": 205,
+            "xmax": 361,
+            "ymax": 484
+        }
+    },
+    {
+        "image_id": "0255_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 41,
+            "ymin": 205,
+            "xmax": 288,
+            "ymax": 481
+        }
+    },
+    {
+        "image_id": "0256_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 209,
+            "xmax": 260,
+            "ymax": 468
+        }
+    },
+    {
+        "image_id": "0257_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 208,
+            "xmax": 226,
+            "ymax": 470
+        }
+    },
+    {
+        "image_id": "0258_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 211,
+            "xmax": 233,
+            "ymax": 477
+        }
+    },
+    {
+        "image_id": "0259_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 204,
+            "xmax": 260,
+            "ymax": 511
+        }
+    },
+    {
+        "image_id": "0260_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 203,
+            "xmax": 272,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0261_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 211,
+            "xmax": 266,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0262_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 204,
+            "xmax": 266,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0263_c.png",
+        "anomalies_present": [
+            "cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 204,
+            "xmax": 262,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0264_c.png",
+        "anomalies_present": [
+            "cable (buried)"
+        ],
+        "trench": {
+            "xmin": 150,
+            "ymin": 200,
+            "xmax": 379,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0265_c.png",
+        "anomalies_present": [
+            "cable (buried)"
+        ],
+        "trench": {
+            "xmin": 201,
+            "ymin": 196,
+            "xmax": 414,
+            "ymax": 488
+        }
+    },
+    {
+        "image_id": "0266_c.png",
+        "anomalies_present": [
+            "cable (buried)"
+        ],
+        "trench": {
+            "xmin": 247,
+            "ymin": 200,
+            "xmax": 468,
+            "ymax": 481
+        }
+    },
+    {
+        "image_id": "0267_c.png",
+        "anomalies_present": [
+            "cable (buried)"
+        ],
+        "trench": {
+            "xmin": 267,
+            "ymin": 212,
+            "xmax": 477,
+            "ymax": 495
+        }
+    },
+    {
+        "image_id": "0268_c.png",
+        "anomalies_present": [
+            "cable (buried)"
+        ],
+        "trench": {
+            "xmin": 264,
+            "ymin": 207,
+            "xmax": 496,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0269_c.png",
+        "anomalies_present": [
+            "cable (buried)"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 206,
+            "xmax": 500,
+            "ymax": 501
+        }
+    },
+    {
+        "image_id": "0270_c.png",
+        "anomalies_present": [
+            "cable (buried)"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 209,
+            "xmax": 487,
+            "ymax": 496
+        }
+    },
+    {
+        "image_id": "0271.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 262,
+            "ymin": 204,
+            "xmax": 489,
+            "ymax": 493
+        }
+    },
+    {
+        "image_id": "0272.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 256,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0273_c.png",
+        "anomalies_present": [
+            "cable (buried)"
+        ],
+        "trench": {
+            "xmin": 248,
+            "ymin": 193,
+            "xmax": 495,
+            "ymax": 440
+        }
+    },
+    {
+        "image_id": "0274_c.png",
+        "anomalies_present": [
+            "cable (buried)"
+        ],
+        "trench": {
+            "xmin": 216,
+            "ymin": 189,
+            "xmax": 491,
+            "ymax": 481
+        }
+    },
+    {
+        "image_id": "0275_c.png",
+        "anomalies_present": [
+            "cable (buried)"
+        ],
+        "trench": {
+            "xmin": 172,
+            "ymin": 200,
+            "xmax": 394,
+            "ymax": 507
+        }
+    },
+    {
+        "image_id": "0276_c.png",
+        "anomalies_present": [
+            "cable (buried)"
+        ],
+        "trench": {
+            "xmin": 109,
+            "ymin": 198,
+            "xmax": 358,
+            "ymax": 477
+        }
+    },
+    {
+        "image_id": "0277_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 39,
+            "ymin": 209,
+            "xmax": 291,
+            "ymax": 504
+        }
+    },
+    {
+        "image_id": "0278_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 158,
+            "ymin": 202,
+            "xmax": 372,
+            "ymax": 459
+        }
+    },
+    {
+        "image_id": "0279_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 221,
+            "ymin": 196,
+            "xmax": 437,
+            "ymax": 464
+        }
+    },
+    {
+        "image_id": "0280_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 243,
+            "ymin": 195,
+            "xmax": 451,
+            "ymax": 449
+        }
+    },
+    {
+        "image_id": "0281_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 203,
+            "xmax": 498,
+            "ymax": 482
+        }
+    },
+    {
+        "image_id": "0282_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 200,
+            "xmax": 493,
+            "ymax": 497
+        }
+    },
+    {
+        "image_id": "0283_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 248,
+            "ymin": 200,
+            "xmax": 494,
+            "ymax": 484
+        }
+    },
+    {
+        "image_id": "0284_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 210,
+            "xmax": 510,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0285_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 251,
+            "ymin": 202,
+            "xmax": 490,
+            "ymax": 495
+        }
+    },
+    {
+        "image_id": "0286_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 271,
+            "ymin": 206,
+            "xmax": 508,
+            "ymax": 464
+        }
+    },
+    {
+        "image_id": "0287_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 264,
+            "ymin": 203,
+            "xmax": 498,
+            "ymax": 459
+        }
+    },
+    {
+        "image_id": "0288.png",
+        "anomalies_present": [],
+        "trench": {
+            "xmin": 261,
+            "ymin": 202,
+            "xmax": 501,
+            "ymax": 461
+        }
+    },
+    {
+        "image_id": "0289_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 198,
+            "xmax": 503,
+            "ymax": 459
+        }
+    },
+    {
+        "image_id": "0290_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 198,
+            "xmax": 507,
+            "ymax": 476
+        }
+    },
+    {
+        "image_id": "0291_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 244,
+            "ymin": 198,
+            "xmax": 484,
+            "ymax": 481
+        }
+    },
+    {
+        "image_id": "0292_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 208,
+            "ymin": 198,
+            "xmax": 487,
+            "ymax": 500
+        }
+    },
+    {
+        "image_id": "0293_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 182,
+            "ymin": 199,
+            "xmax": 435,
+            "ymax": 492
+        }
+    },
+    {
+        "image_id": "0294_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 144,
+            "ymin": 200,
+            "xmax": 391,
+            "ymax": 497
+        }
+    },
+    {
+        "image_id": "0295_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 96,
+            "ymin": 202,
+            "xmax": 358,
+            "ymax": 495
+        }
+    },
+    {
+        "image_id": "0296_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 32,
+            "ymin": 202,
+            "xmax": 306,
+            "ymax": 503
+        }
+    },
+    {
+        "image_id": "0297_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 200,
+            "xmax": 248,
+            "ymax": 483
+        }
+    },
+    {
+        "image_id": "0298_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 195,
+            "xmax": 262,
+            "ymax": 485
+        }
+    },
+    {
+        "image_id": "0299_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 200,
+            "xmax": 285,
+            "ymax": 485
+        }
+    },
+    {
+        "image_id": "0300_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 42,
+            "ymin": 201,
+            "xmax": 315,
+            "ymax": 495
+        }
+    },
+    {
+        "image_id": "0301_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 85,
+            "ymin": 196,
+            "xmax": 338,
+            "ymax": 468
+        }
+    },
+    {
+        "image_id": "0302_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 159,
+            "ymin": 200,
+            "xmax": 405,
+            "ymax": 454
+        }
+    },
+    {
+        "image_id": "0303_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 198,
+            "ymin": 196,
+            "xmax": 446,
+            "ymax": 460
+        }
+    },
+    {
+        "image_id": "0304_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 235,
+            "ymin": 202,
+            "xmax": 478,
+            "ymax": 469
+        }
+    },
+    {
+        "image_id": "0305_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 245,
+            "ymin": 205,
+            "xmax": 494,
+            "ymax": 491
+        }
+    },
+    {
+        "image_id": "0306_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 249,
+            "ymin": 201,
+            "xmax": 498,
+            "ymax": 497
+        }
+    },
+    {
+        "image_id": "0307_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 247,
+            "ymin": 204,
+            "xmax": 498,
+            "ymax": 482
+        }
+    },
+    {
+        "image_id": "0308_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 247,
+            "ymin": 199,
+            "xmax": 493,
+            "ymax": 484
+        }
+    },
+    {
+        "image_id": "0309_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 204,
+            "xmax": 501,
+            "ymax": 476
+        }
+    },
+    {
+        "image_id": "0310_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 262,
+            "ymin": 208,
+            "xmax": 512,
+            "ymax": 480
+        }
+    },
+    {
+        "image_id": "0311_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 265,
+            "ymin": 208,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0312_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 265,
+            "ymin": 207,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0313_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 264,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0314_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 271,
+            "ymin": 208,
+            "xmax": 512,
+            "ymax": 477
+        }
+    },
+    {
+        "image_id": "0315_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 248,
+            "ymin": 198,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0316_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 196,
+            "ymin": 197,
+            "xmax": 443,
+            "ymax": 499
+        }
+    },
+    {
+        "image_id": "0317_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 134,
+            "ymin": 200,
+            "xmax": 386,
+            "ymax": 506
+        }
+    },
+    {
+        "image_id": "0318_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 51,
+            "ymin": 202,
+            "xmax": 339,
+            "ymax": 501
+        }
+    },
+    {
+        "image_id": "0319_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 208,
+            "xmax": 298,
+            "ymax": 507
+        }
+    },
+    {
+        "image_id": "0320_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 210,
+            "xmax": 291,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0321_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 207,
+            "xmax": 294,
+            "ymax": 505
+        }
+    },
+    {
+        "image_id": "0322_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 202,
+            "xmax": 295,
+            "ymax": 504
+        }
+    },
+    {
+        "image_id": "0323_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 205,
+            "xmax": 289,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0324_pc.png",
+        "anomalies_present": [
+            "pipe",
+            " cable"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 208,
+            "xmax": 261,
+            "ymax": 507
+        }
+    },
+    {
+        "image_id": "0325_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 117,
+            "ymin": 204,
+            "xmax": 400,
+            "ymax": 507
+        }
+    },
+    {
+        "image_id": "0326_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 109,
+            "ymin": 203,
+            "xmax": 376,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0327_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 86,
+            "ymin": 206,
+            "xmax": 341,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0328_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 31,
+            "ymin": 206,
+            "xmax": 292,
+            "ymax": 504
+        }
+    },
+    {
+        "image_id": "0329_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 11,
+            "ymin": 207,
+            "xmax": 275,
+            "ymax": 499
+        }
+    },
+    {
+        "image_id": "0330_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 124,
+            "ymin": 202,
+            "xmax": 366,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0331_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 211,
+            "ymin": 200,
+            "xmax": 440,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0332_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 262,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0333_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 267,
+            "ymin": 202,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0334_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 264,
+            "ymin": 196,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0335_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 200,
+            "xmax": 512,
+            "ymax": 507
+        }
+    },
+    {
+        "image_id": "0336_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 264,
+            "ymin": 201,
+            "xmax": 509,
+            "ymax": 503
+        }
+    },
+    {
+        "image_id": "0337_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 267,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0338_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 264,
+            "ymin": 205,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0339_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 202,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0340_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 208,
+            "xmax": 511,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0341_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 207,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0342_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 208,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0343_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 255,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0344_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 255,
+            "ymin": 203,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0345_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0346_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 202,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0347_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 203,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0348_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0349_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 202,
+            "xmax": 488,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0350_spcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 262,
+            "ymin": 203,
+            "xmax": 501,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0351_spcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 200,
+            "xmax": 505,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0352_ps.png",
+        "anomalies_present": [
+            "pole",
+            " shovel"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 198,
+            "xmax": 497,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0353_ps.png",
+        "anomalies_present": [
+            "pole",
+            " shovel"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 199,
+            "xmax": 485,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0354_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 224,
+            "ymin": 199,
+            "xmax": 448,
+            "ymax": 506
+        }
+    },
+    {
+        "image_id": "0355_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 173,
+            "ymin": 202,
+            "xmax": 403,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0356_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 113,
+            "ymin": 203,
+            "xmax": 325,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0357_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 208,
+            "xmax": 286,
+            "ymax": 505
+        }
+    },
+    {
+        "image_id": "0358_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 28,
+            "ymin": 203,
+            "xmax": 294,
+            "ymax": 507
+        }
+    },
+    {
+        "image_id": "0359_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 134,
+            "ymin": 202,
+            "xmax": 361,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0360_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 198,
+            "ymin": 200,
+            "xmax": 435,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0361_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 245,
+            "ymin": 204,
+            "xmax": 467,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0362_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 251,
+            "ymin": 203,
+            "xmax": 492,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0363_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 244,
+            "ymin": 201,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0364_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 255,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0365_spcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 206,
+            "xmax": 505,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0366_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 267,
+            "ymin": 194,
+            "xmax": 489,
+            "ymax": 499
+        }
+    },
+    {
+        "image_id": "0367_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 266,
+            "ymin": 196,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0368_pwcc.png",
+        "anomalies_present": [
+            "pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 262,
+            "ymin": 200,
+            "xmax": 488,
+            "ymax": 500
+        }
+    },
+    {
+        "image_id": "0369_pwcc.png",
+        "anomalies_present": [
+            "pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 198,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0370_pwcc.png",
+        "anomalies_present": [
+            "pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 197,
+            "xmax": 484,
+            "ymax": 504
+        }
+    },
+    {
+        "image_id": "0371_pwcc.png",
+        "anomalies_present": [
+            "pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 200,
+            "xmax": 472,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0372_pwcc.png",
+        "anomalies_present": [
+            "pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 252,
+            "ymin": 204,
+            "xmax": 473,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0373_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 202,
+            "xmax": 485,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0374_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 203,
+            "xmax": 479,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0375_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 200,
+            "xmax": 478,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0376_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 196,
+            "xmax": 486,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0377_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 201,
+            "xmax": 475,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0378_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 200,
+            "xmax": 473,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0379_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 199,
+            "xmax": 469,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0380_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 200,
+            "xmax": 502,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0381_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 197,
+            "xmax": 495,
+            "ymax": 511
+        }
+    },
+    {
+        "image_id": "0382_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 197,
+            "xmax": 488,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0383_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 198,
+            "xmax": 481,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0384_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 197,
+            "xmax": 474,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0385_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 199,
+            "xmax": 474,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0386_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 198,
+            "xmax": 484,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0387_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 199,
+            "xmax": 475,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0388_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 197,
+            "xmax": 483,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0389_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 199,
+            "xmax": 482,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0390_pcc.png",
+        "anomalies_present": [
+            "pole",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 202,
+            "xmax": 487,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0391_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 108,
+            "ymin": 203,
+            "xmax": 344,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0392_spwcc.png",
+        "anomalies_present": [
+            "shovel",
+            " pole",
+            " wedge",
+            " can",
+            " canister"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 209,
+            "xmax": 278,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0393_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 207,
+            "xmax": 273,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0394_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 3,
+            "ymin": 202,
+            "xmax": 309,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0395_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 114,
+            "ymin": 202,
+            "xmax": 373,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0396_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 157,
+            "ymin": 199,
+            "xmax": 407,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0397_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 204,
+            "ymin": 200,
+            "xmax": 426,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0398_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 224,
+            "ymin": 201,
+            "xmax": 473,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0399_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 200,
+            "xmax": 484,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0400_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 269,
+            "ymin": 200,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0401_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 263,
+            "ymin": 203,
+            "xmax": 509,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0402_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 206,
+            "xmax": 509,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0403_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 246,
+            "ymin": 203,
+            "xmax": 494,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0404_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 246,
+            "ymin": 200,
+            "xmax": 494,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0405_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 241,
+            "ymin": 201,
+            "xmax": 490,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0406_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 245,
+            "ymin": 199,
+            "xmax": 489,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0407_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 248,
+            "ymin": 200,
+            "xmax": 499,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0408_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 244,
+            "ymin": 201,
+            "xmax": 476,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0409_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 240,
+            "ymin": 200,
+            "xmax": 473,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0410_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 242,
+            "ymin": 203,
+            "xmax": 467,
+            "ymax": 511
+        }
+    },
+    {
+        "image_id": "0411_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 158,
+            "ymin": 203,
+            "xmax": 381,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0412_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 110,
+            "ymin": 204,
+            "xmax": 334,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0413_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 94,
+            "ymin": 205,
+            "xmax": 319,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0414_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 77,
+            "ymin": 204,
+            "xmax": 318,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0415_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 49,
+            "ymin": 208,
+            "xmax": 308,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0416_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 26,
+            "ymin": 206,
+            "xmax": 294,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0417_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 46,
+            "ymin": 206,
+            "xmax": 304,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0418_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 99,
+            "ymin": 205,
+            "xmax": 339,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0419_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 152,
+            "ymin": 202,
+            "xmax": 382,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0420_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 204,
+            "ymin": 200,
+            "xmax": 446,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0421_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 219,
+            "ymin": 199,
+            "xmax": 461,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0422_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 214,
+            "ymin": 201,
+            "xmax": 450,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0423_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 239,
+            "ymin": 199,
+            "xmax": 459,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0424_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 250,
+            "ymin": 199,
+            "xmax": 492,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0425_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 252,
+            "ymin": 203,
+            "xmax": 488,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0426_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 248,
+            "ymin": 202,
+            "xmax": 484,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0427_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 249,
+            "ymin": 202,
+            "xmax": 500,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0428_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 251,
+            "ymin": 203,
+            "xmax": 509,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0429_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 246,
+            "ymin": 208,
+            "xmax": 493,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0430_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 246,
+            "ymin": 203,
+            "xmax": 505,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0431_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 251,
+            "ymin": 202,
+            "xmax": 500,
+            "ymax": 510
+        }
+    },
+    {
+        "image_id": "0432_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 201,
+            "xmax": 496,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0433_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 244,
+            "ymin": 199,
+            "xmax": 479,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0434_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 246,
+            "ymin": 199,
+            "xmax": 480,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0435_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 246,
+            "ymin": 197,
+            "xmax": 476,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0436_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 244,
+            "ymin": 200,
+            "xmax": 484,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0437_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 239,
+            "ymin": 199,
+            "xmax": 477,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0438_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 244,
+            "ymin": 202,
+            "xmax": 471,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0439_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 244,
+            "ymin": 200,
+            "xmax": 482,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0440_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 240,
+            "ymin": 200,
+            "xmax": 484,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0441_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 237,
+            "ymin": 195,
+            "xmax": 484,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0442_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 236,
+            "ymin": 199,
+            "xmax": 488,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0443_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 237,
+            "ymin": 198,
+            "xmax": 468,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0444_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 234,
+            "ymin": 197,
+            "xmax": 477,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0445_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 229,
+            "ymin": 199,
+            "xmax": 461,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0446_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 217,
+            "ymin": 199,
+            "xmax": 464,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0447_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 189,
+            "ymin": 197,
+            "xmax": 434,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0448_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 145,
+            "ymin": 198,
+            "xmax": 393,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0449_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 94,
+            "ymin": 201,
+            "xmax": 337,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0450_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 209,
+            "xmax": 273,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0451_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 63,
+            "ymin": 203,
+            "xmax": 337,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0452_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 121,
+            "ymin": 203,
+            "xmax": 385,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0453_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 174,
+            "ymin": 196,
+            "xmax": 442,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0454_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 220,
+            "ymin": 194,
+            "xmax": 477,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0455_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 226,
+            "ymin": 199,
+            "xmax": 476,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0456_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 237,
+            "ymin": 197,
+            "xmax": 491,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0457_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 239,
+            "ymin": 197,
+            "xmax": 490,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0458_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 235,
+            "ymin": 196,
+            "xmax": 501,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0459_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 238,
+            "ymin": 199,
+            "xmax": 494,
+            "ymax": 504
+        }
+    },
+    {
+        "image_id": "0460_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 247,
+            "ymin": 198,
+            "xmax": 498,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0461_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 201,
+            "xmax": 512,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0462_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 246,
+            "ymin": 199,
+            "xmax": 509,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0463_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 250,
+            "ymin": 197,
+            "xmax": 500,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0464_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 251,
+            "ymin": 200,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0465_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 247,
+            "ymin": 197,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0466_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 251,
+            "ymin": 197,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0467_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 199,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0468_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 245,
+            "ymin": 193,
+            "xmax": 495,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0469_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 245,
+            "ymin": 193,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0470_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 248,
+            "ymin": 196,
+            "xmax": 493,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0471_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 199,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0472_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 197,
+            "xmax": 512,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0473_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 201,
+            "xmax": 501,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0474_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 251,
+            "ymin": 199,
+            "xmax": 495,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0475_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 248,
+            "ymin": 200,
+            "xmax": 483,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0476_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 199,
+            "xmax": 487,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0477_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 255,
+            "ymin": 198,
+            "xmax": 498,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0478_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 255,
+            "ymin": 201,
+            "xmax": 493,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0479_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 200,
+            "xmax": 490,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0480_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 200,
+            "xmax": 504,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0481_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 200,
+            "xmax": 478,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0482_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 251,
+            "ymin": 201,
+            "xmax": 503,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0483_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 264,
+            "ymin": 199,
+            "xmax": 503,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0484_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 264,
+            "ymin": 201,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0485_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0486_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 251,
+            "ymin": 206,
+            "xmax": 501,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0487_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 246,
+            "ymin": 202,
+            "xmax": 511,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0488_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 251,
+            "ymin": 203,
+            "xmax": 488,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0489_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 252,
+            "ymin": 201,
+            "xmax": 500,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0490_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 201,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0491_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 245,
+            "ymin": 199,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0492_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 262,
+            "ymin": 202,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0493_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 199,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0494_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0495_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 252,
+            "ymin": 204,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0496_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 249,
+            "ymin": 202,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0497_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 225,
+            "ymin": 201,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0498_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 179,
+            "ymin": 201,
+            "xmax": 462,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0499_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 106,
+            "ymin": 204,
+            "xmax": 366,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0500_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 210,
+            "xmax": 305,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0501_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 209,
+            "xmax": 297,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0502_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 101,
+            "ymin": 204,
+            "xmax": 348,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0503_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 157,
+            "ymin": 200,
+            "xmax": 418,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0504_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 189,
+            "ymin": 200,
+            "xmax": 437,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0505_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 214,
+            "ymin": 196,
+            "xmax": 474,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0506_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 239,
+            "ymin": 199,
+            "xmax": 482,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0507_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 247,
+            "ymin": 203,
+            "xmax": 499,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0508_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 249,
+            "ymin": 198,
+            "xmax": 506,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0509_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 237,
+            "ymin": 202,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0510_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 237,
+            "ymin": 200,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0511_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 203,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0512_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 252,
+            "ymin": 205,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0513_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 255,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0514_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 205,
+            "xmax": 501,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0515_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 250,
+            "ymin": 207,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0516_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 247,
+            "ymin": 203,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0517_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 250,
+            "ymin": 201,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0518_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 250,
+            "ymin": 210,
+            "xmax": 511,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0519_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 212,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0520_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 129,
+            "ymin": 202,
+            "xmax": 365,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0521_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 64,
+            "ymin": 206,
+            "xmax": 302,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0522_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 1,
+            "ymin": 210,
+            "xmax": 244,
+            "ymax": 508
+        }
+    },
+    {
+        "image_id": "0523_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 85,
+            "ymin": 201,
+            "xmax": 342,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0524_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 181,
+            "ymin": 200,
+            "xmax": 405,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0525_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 233,
+            "ymin": 199,
+            "xmax": 478,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0526_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 239,
+            "ymin": 199,
+            "xmax": 484,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0527_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 200,
+            "xmax": 490,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0528_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 250,
+            "ymin": 204,
+            "xmax": 510,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0529_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 251,
+            "ymin": 201,
+            "xmax": 494,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0530_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 201,
+            "xmax": 484,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0531_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 247,
+            "ymin": 199,
+            "xmax": 479,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0532_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 246,
+            "ymin": 203,
+            "xmax": 488,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0533_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 248,
+            "ymin": 202,
+            "xmax": 483,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0534_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 248,
+            "ymin": 209,
+            "xmax": 494,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0535_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 201,
+            "xmax": 485,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0536_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 247,
+            "ymin": 201,
+            "xmax": 444,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0537_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 203,
+            "xmax": 471,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0538_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 240,
+            "ymin": 194,
+            "xmax": 474,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0539_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 249,
+            "ymin": 195,
+            "xmax": 504,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0540_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 268,
+            "ymin": 208,
+            "xmax": 482,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0541_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 195,
+            "xmax": 479,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0542_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 245,
+            "ymin": 199,
+            "xmax": 455,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0543_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 203,
+            "xmax": 474,
+            "ymax": 511
+        }
+    },
+    {
+        "image_id": "0544_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 201,
+            "xmax": 482,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0545_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 203,
+            "xmax": 488,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0546_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 195,
+            "xmax": 492,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0547_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 252,
+            "ymin": 208,
+            "xmax": 487,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0548_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 263,
+            "ymin": 202,
+            "xmax": 473,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0549_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 201,
+            "xmax": 479,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0550_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 202,
+            "xmax": 467,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0551_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 201,
+            "xmax": 506,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0552_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 201,
+            "xmax": 501,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0553_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 255,
+            "ymin": 207,
+            "xmax": 508,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0554_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 245,
+            "ymin": 203,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0555_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 255,
+            "ymin": 206,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0556_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 202,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0557_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 201,
+            "xmax": 493,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0558_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 254,
+            "ymin": 198,
+            "xmax": 493,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0559_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 203,
+            "xmax": 506,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0560_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 203,
+            "xmax": 497,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0561_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 206,
+            "xmax": 497,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0562_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 208,
+            "xmax": 498,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0563_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 261,
+            "ymin": 208,
+            "xmax": 497,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0564_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 258,
+            "ymin": 208,
+            "xmax": 512,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0565_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 170,
+            "ymin": 201,
+            "xmax": 423,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0566_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 132,
+            "ymin": 199,
+            "xmax": 374,
+            "ymax": 501
+        }
+    },
+    {
+        "image_id": "0567_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 74,
+            "ymin": 202,
+            "xmax": 311,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0568_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 26,
+            "ymin": 209,
+            "xmax": 267,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0569_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 23,
+            "ymin": 202,
+            "xmax": 277,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0570_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 102,
+            "ymin": 205,
+            "xmax": 366,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0571_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 169,
+            "ymin": 198,
+            "xmax": 399,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0572_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 220,
+            "ymin": 195,
+            "xmax": 458,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0573_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 232,
+            "ymin": 197,
+            "xmax": 465,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0574_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 226,
+            "ymin": 196,
+            "xmax": 465,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0575_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 226,
+            "ymin": 201,
+            "xmax": 468,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0576_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 231,
+            "ymin": 195,
+            "xmax": 478,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0577_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 232,
+            "ymin": 200,
+            "xmax": 492,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0578_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 228,
+            "ymin": 202,
+            "xmax": 492,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0579_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 223,
+            "ymin": 203,
+            "xmax": 497,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0580_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 225,
+            "ymin": 197,
+            "xmax": 465,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0581_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 239,
+            "ymin": 199,
+            "xmax": 472,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0582_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 239,
+            "ymin": 192,
+            "xmax": 502,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0583_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 250,
+            "ymin": 211,
+            "xmax": 494,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0584_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 259,
+            "ymin": 195,
+            "xmax": 485,
+            "ymax": 509
+        }
+    },
+    {
+        "image_id": "0585_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 257,
+            "ymin": 202,
+            "xmax": 482,
+            "ymax": 507
+        }
+    },
+    {
+        "image_id": "0586_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 204,
+            "xmax": 476,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0587_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 204,
+            "xmax": 476,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0588_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 251,
+            "ymin": 197,
+            "xmax": 475,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0589_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 250,
+            "ymin": 197,
+            "xmax": 475,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0590_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 201,
+            "xmax": 487,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0591_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 246,
+            "ymin": 199,
+            "xmax": 495,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0592_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 245,
+            "ymin": 200,
+            "xmax": 485,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0593_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 256,
+            "ymin": 202,
+            "xmax": 499,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0594_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 253,
+            "ymin": 198,
+            "xmax": 497,
+            "ymax": 512
+        }
+    },
+    {
+        "image_id": "0595_s.png",
+        "anomalies_present": [
+            "stone"
+        ],
+        "trench": {
+            "xmin": 260,
+            "ymin": 199,
+            "xmax": 504,
+            "ymax": 512
+        }
+    }
+]

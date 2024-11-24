@@ -1,0 +1,13 @@
+data/*.png
+data/*.xml
+data/cropped_images/*.png
+data/cropped_images_black/*.png
+ckpts/*
+outputs/*
+
+**/__pycache__/** 
+
+gsam2_evaluate.sh
+qwen2vl_evaluate.sh
+
+*.pt
