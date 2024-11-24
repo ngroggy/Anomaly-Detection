@@ -9,3 +9,5 @@ outputs/*
 
 gsam2_evaluate.sh
 qwen2vl_evaluate.sh
+
+*.pt
