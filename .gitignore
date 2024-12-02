@@ -7,7 +7,6 @@ outputs/*
 
 **/__pycache__/** 
 
-gsam2_evaluate.sh
-qwen2vl_evaluate.sh
+*_evaluate.sh
 
 *.pt
