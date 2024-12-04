@@ -18,6 +18,7 @@ import groundingdino.datasets.transforms as T
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.groundingdino.inference import get_grounding_output
+from utils.general.dataloader import load_image, get_bbox, create_output_dir
 
 
 def print_classes(prompt, token_spans):
@@ -26,43 +27,6 @@ def print_classes(prompt, token_spans):
     for token_span in token_spans_list:
         phrase += ' '.join([prompt[_s:_e] for (_s, _e) in token_span]) + ', '
     print("\n\nLooking for: ", phrase, "\n\n")
-
-def get_bbox(img_path, input_path):
-    with open(os.path.join(input_path, "annotations.json"), "r") as f:
-        data = json.load(f)
-
-    img_id = os.path.basename(img_path)
-
-    for item in data:
-        if item["image_id"] == img_id:
-            bbox = item["trench"]
-            return bbox
-
-    return None
-
-
-def load_image(img_path, bbox, saturation=1.0, contrast=1.0, sharpness=1.0, cropped=False, black=False):
-
-    image = Image.open(img_path).convert("RGB")
-
-    if saturation != 1.0:
-        color_enhancer = ImageEnhance.Color(image)
-        image = color_enhancer.enhance(saturation)
-
-    if contrast != 1.0:
-        contrast_enhancer = ImageEnhance.Contrast(image)
-        image = contrast_enhancer.enhance(contrast)
-
-    if sharpness != 1.0:
-        sharpness_enhancer = ImageEnhance.Sharpness(image)
-        image = sharpness_enhancer.enhance(sharpness)
-
-    image_crop = image.crop((bbox["xmin"], bbox["ymin"], bbox["xmax"], bbox["ymax"]))
-
-    image_black = Image.new("RGB", image.size, (0, 0, 0))
-    image_black.paste(image_crop, (bbox["xmin"], bbox["ymin"]))
-
-    return image, image_crop, image_black
 
 
 def single_mask_to_rle(mask):
@@ -141,24 +105,10 @@ def main(args):
     saturation = args.saturation
     contrast = args.contrast
     sharpness = args.sharpness
+    rerun = args.rerun
     
     # outputs
-    output_dir = Path(args.output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
-    
-    output_dir_length = len(os.listdir(output_dir))
-    rerun = args.rerun
-
-    if rerun is True:
-        output_dir = Path(os.path.join(output_dir, f"{output_dir_length:02d}"))
-    else:
-        output_dir = Path(os.path.join(output_dir, f"{output_dir_length + 1:02d}"))
-
-    # output_dir.mkdir(parents=True, exist_ok=True)
-
-    for key in ["full", "crop", "black"]:
-        output_dir_key = os.path.join(output_dir, key)
-        os.makedirs(output_dir_key, exist_ok=True)
+    output_dir = create_output_dir(rerun, args.output_dir)
 
     # environment settings
     # use bfloat16
@@ -184,7 +134,6 @@ def main(args):
         if filename.endswith('.png'):
             img_path  = os.path.join(input_dir, filename)
             print(f"\nProcessing image: {filename}")
-            # image = Image.open(img_path)
 
             bbox = get_bbox(img_path, input_dir)
 
@@ -192,9 +141,7 @@ def main(args):
             image_dict = {"full": image, "crop": image_crop, "black": image_black}
             
             for key, image in image_dict.items():
-
-                if image is None:
-                    continue
+                print(f"Processing image: {filename} - [{key}] \n")
 
                 transform = T.Compose(
                     [
