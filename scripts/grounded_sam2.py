@@ -46,7 +46,8 @@ def main(args):
 
     phrase = ""
     for class_name in classes:
-        phrase += class_name + ', '
+        if not (class_name in ["excavator shovel", "excavator arm"]):
+            phrase += class_name + ', '
 
     print("\n\nLooking for: ", phrase[:-2] + ".", "\n\n")
 

@@ -46,10 +46,11 @@ def main(args):
 
     if token_spans is not None:
         text_threshold = None
-        
+
     phrase = ""
     for class_name in classes:
-        phrase += class_name + ', '
+        if not (class_name in ["excavator shovel", "excavator arm"]):
+            phrase += class_name + ', '
 
     print("\n\nLooking for: ", phrase[:-2] + ".", "\n\n")
 
