@@ -1,147 +1,62 @@
 import argparse
 import os
 import cv2
-import json
 import torch
 import numpy as np
 import supervision as sv
-import pycocotools.mask as mask_util
-from pathlib import Path
 from supervision.draw.color import ColorPalette
-from PIL import Image, ImageEnhance
 from sam2.build_sam import build_sam2
 from sam2.sam2_image_predictor import SAM2ImagePredictor
 from torchvision.ops import box_convert
 from groundingdino.util.inference import load_model
 import groundingdino.datasets.transforms as T
-import time
 
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.groundingdino.inference import get_grounding_output
-from utils.general.dataloader import load_image, get_bbox, create_output_dir, extractClassNames, createTextPrompts
-from utils.groundedsam2.tools.generate_tokenspans import get_token_positions
-from utils.groundedsam2.tools.helper_functions import filter_objects, filter_objects_with_full_image
-
-
-# class GroundedSAM2:
-#     def __init__(self, config_dino, checkpoint_dino, config_sam2, checkpoint_sam2):
-#         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-#         self.grounding_model = load_model(
-#                                     model_config_path=config_dino, 
-#                                     model_checkpoint_path=checkpoint_dino,
-#                                     device=self.device
-#                                 )
-#         self.sam2_model = build_sam2(config_sam2, checkpoint_sam2, device=self.device)
-#         self.sam2_predictor = SAM2ImagePredictor(self.sam2_model)
-
-def print_classes(prompt, token_spans):
-    token_spans_list = eval(f"{token_spans}")
-    phrase = ''
-    for token_span in token_spans_list:
-        phrase += ' '.join([prompt[_s:_e] for (_s, _e) in token_span]) + ', '
-    print("\n\nLooking for: ", phrase, "\n\n")
-
-
-def single_mask_to_rle(mask):
-    rle = mask_util.encode(np.array(mask[:, :, None], order="F", dtype="uint8"))[0]
-    rle["counts"] = rle["counts"].decode("utf-8")
-    return rle
-
-
-def save_json_results(output_dir, masks, scores, class_names, input_boxes, image, img_path, key):
-    predictions_path = os.path.join(output_dir, key, "predictions.json")
-    if masks is None:
-        results = {
-        "image_path": img_path,
-        "annotations" : [],
-        "box_format": "xyxy",
-        "img_width": image.width,
-        "img_height": image.height,
-    }
-
-    else:
-        # convert mask into rle format
-        mask_rles = [single_mask_to_rle(mask) for mask in masks]
-
-        input_boxes = input_boxes.tolist()
-        scores = scores.tolist()
-        # save the results in standard format
-        results = {
-            "image_path": img_path,
-            "annotations" : [
-                {
-                    "class_names": class_names,
-                    "score": scores,
-                    "bbox": input_boxes,
-                    "segmentation": mask_rles,
-                }
-            ],
-            "box_format": "xyxy",
-            "img_width": image.width,
-            "img_height": image.height,
-        }
-        
-    # Load existing data or initialize an empty list
-    existing_results = []
-    if os.path.exists(predictions_path):
-        with open(predictions_path, "r") as f:
-            existing_results = json.load(f)
-    
-    # Append new result
-    existing_results.append(results)
-    
-    # Write back to the file
-    with open(predictions_path, "w") as f:
-        json.dump(existing_results, f, indent=4)
+from utils.general.dataloader import load_image, get_bbox, create_output_dir
+from utils.groundedsam2.tools.helper_functions import filter_objects, filter_objects_with_full_image, generate_input, save_json_results
 
 def main(args):
 
     # models
-    GROUNDING_DINO_CONFIG = args.groundingdino_model_config #"grounding_dino/groundingdino/config/GroundingDINO_SwinT_OGC.py"
-    GROUNDING_DINO_CHECKPOINT = args.groundingdino_checkpoint #"gdino_checkpoints/groundingdino_swint_ogc.pth"
-    BOX_THRESHOLD = args.box_threshold
-    TEXT_THRESHOLD = args.text_threshold
+    groundingdino_model_cfg = args.groundingdino_model_config # "grounding_dino/groundingdino/config/GroundingDINO_SwinT_OGC.py"
+    groundingdino_checkpoint = args.groundingdino_checkpoint # "gdino_checkpoints/groundingdino_swint_ogc.pth"
     sam2_checkpoint = args.sam2_checkpoint
     sam2_model_cfg = args.sam2_model_config
 
-    duration = []
-
-
     # inputs
-    # VERY important: text queries need to be lowercased + end with a dot
-    prompt = args.text_prompt
-    # token_spans = args.token_spans
-
-
-    finetune_classes = extractClassNames(prompt)
-    finetune_prompt = " ".join(createTextPrompts(finetune_classes)) + "excavator shovel. excavator arm. excavator digging a trench. excavator."
-    finetune_classes.extend(["excavator"])
-    finetune_tokespans = get_token_positions(finetune_prompt, finetune_classes)
-
-    classes = extractClassNames(prompt)
-    textPrompt = " ".join(createTextPrompts(classes)) + " excavator shovel." + " excavator shovel filled with dirt, gravel and small stones." + " excavator arm." + " excavator shovel digging a trench."
-    classes.extend(["excavator shovel", "excavator arm"])
-    token_spans = get_token_positions(textPrompt, classes)
-    prompt = textPrompt
-
-    if token_spans is not None:
-        TEXT_THRESHOLD = None
-        print_classes(prompt, token_spans)
-
-    input_dir = args.input_dir
-    DEVICE = "cuda" if torch.cuda.is_available() and not args.force_cpu else "cpu"
-
+    threshold = args.box_threshold
+    text_threshold = args.text_threshold
     saturation = args.saturation
     contrast = args.contrast
     sharpness = args.sharpness
     rerun = args.rerun
-    
-    # outputs
-    output_dir = create_output_dir(rerun, args.output_dir)
+    input_dir = args.input_dir
+    DEVICE = "cuda" if torch.cuda.is_available() and not args.force_cpu else "cpu"
 
-    # environment settings
-    # use bfloat16
+    # VERY important: text queries need to be lowercased + end with a dot
+    prompt = args.text_prompt
+
+    filter_prompt = " excavator shovel." + " excavator shovel filled with dirt, gravel and small stones." + " excavator arm." + " excavator shovel digging a trench."
+    classes, prompt, token_spans = generate_input(prompt, filter_classes = ["excavator shovel", "excavator arm"], filter_prompt=filter_prompt)
+
+    filter_prompt_finetune = "excavator shovel. excavator arm. excavator digging a trench. excavator."
+    _, finetune_prompt, finetune_tokenspans = generate_input(prompt, filter_classes = ["excavator"], filter_prompt=filter_prompt_finetune)
+
+    if token_spans is not None:
+        text_threshold = None
+        
+    phrase = ""
+    for class_name in classes:
+        phrase += class_name + ', '
+
+    print("\n\nLooking for: ", phrase[:-2] + ".", "\n\n")
+
+    # outputs
+    output_dir = create_output_dir(rerun, args.output_dir, exclude_keys=["black"])
+
+    # environment settings - use bfloat16
     torch.autocast(device_type=DEVICE, dtype=torch.float16).__enter__()
 
     if torch.cuda.get_device_properties(0).major >= 8:
@@ -155,8 +70,8 @@ def main(args):
 
     # build grounding dino model
     grounding_model = load_model(
-        model_config_path=GROUNDING_DINO_CONFIG, 
-        model_checkpoint_path=GROUNDING_DINO_CHECKPOINT,
+        model_config_path=groundingdino_model_cfg, 
+        model_checkpoint_path=groundingdino_checkpoint,
         device=DEVICE
     )
 
@@ -172,16 +87,18 @@ def main(args):
                 print(f"No trench in {filename}, skipping.")
                 continue
 
-            image, image_crop, image_black = load_image(img_path, saturation=saturation, contrast=contrast, sharpness=sharpness, bbox=bbox, cropped=True, black=True)
-            image_dict = {"full": image, "crop": image_crop, "black": image_black}
+            image, image_crop, _ = load_image(img_path, saturation=saturation, contrast=contrast, sharpness=sharpness, bbox=bbox, cropped=True, black=True)
+            image_dict = {"full": image, "crop": image_crop}
+
             full_img = image.copy()
+
             for key, image in image_dict.items():
-                if key == "black":
-                    continue
-                inference_time = time.time()
                 
                 print(f"Processing image: {filename} - [{key}] \n")
 
+                """
+                Run Grounding-Dino Inference
+                """
                 transform = T.Compose(
                     [
                         T.RandomResize([800], max_size=1333),
@@ -191,38 +108,37 @@ def main(args):
                 )
 
                 image_transformed, _ = transform(image, None)
-            
-                sam2_predictor.set_image(np.array(image))        
-
-                # run model
+                
                 if key == "full":
                     boxes, labels = get_grounding_output(
-                        grounding_model, image_transformed, finetune_prompt, 0.35, None, cpu_only=False, token_spans=eval(f"{finetune_tokespans}")
+                        grounding_model, image_transformed, finetune_prompt, 0.35, None, cpu_only=False, token_spans=eval(f"{finetune_tokenspans}")
                     )
                 else:
                     boxes, labels = get_grounding_output(
-                        grounding_model, image_transformed, prompt, BOX_THRESHOLD, TEXT_THRESHOLD, cpu_only=False, token_spans=eval(f"{token_spans}")
+                        grounding_model, image_transformed, prompt, threshold, text_threshold, cpu_only=False, token_spans=eval(f"{token_spans}")
                     )
 
-                # process the box prompt for SAM 2
+                # Process the box prompt for SAM 2
                 h, w, _ = np.array(image).shape
                 boxes = boxes * torch.Tensor([w, h, w, h])
                 input_boxes = box_convert(boxes=boxes, in_fmt="cxcywh", out_fmt="xyxy").numpy()
 
                 # Segment the detected objects using SAM2 and save the output to the output directory
                 if input_boxes.size == 0:
-                    inference_time = time.time() - inference_time 
-                    duration.append(inference_time)
                     print(f"No objects detected, skipping {filename} [{key}] for SAM2.")
 
-                    # img = cv2.imread(img_path)
-                    image = image_dict["full"]
-                    img = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
+                    img = cv2.cvtColor(np.array(full_img), cv2.COLOR_RGB2BGR)
                     cv2.imwrite(os.path.join(output_dir, key, filename), img)
 
                     save_json_results(output_dir, None, None, None, None, image, img_path, key)
 
                 else: 
+
+                    """
+                    Run SAM2 Inference
+                    """
+                    sam2_predictor.set_image(np.array(image))  
+
                     masks, scores, logits = sam2_predictor.predict(
                         point_coords=None,
                         point_labels=None,
@@ -230,48 +146,43 @@ def main(args):
                         multimask_output=False,
                     )
 
-                    if key == "crop":
-                        masks, input_boxes, labels = filter_objects(masks, input_boxes, labels, iou_threshold=0.8, exclude_keyword="excavator")
-
-                    inference_time = time.time() - inference_time 
-                    duration.append(inference_time)
-                    print(inference_time, "ms")
-
                     """
                     Post-process the output of the model to get the masks, scores, and logits for visualization
                     """
+
+                    # Remove detections of excavators in cropped image
+                    if key == "crop":
+                        masks, input_boxes, labels = filter_objects(masks, input_boxes, labels, iou_threshold=0.8, exclude_keyword="excavator")
+
                     if isinstance(masks, list):
                         masks = np.array(masks)
 
                     # Handle empty masks
                     if masks.size == 0:
-                        print(f"No objects detected, skipping {filename} [{key}].")
-                        image = image_dict["full"]
-                        img = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
+                        print(f"No object masks detected, skipping {filename} [{key}].")
+
+                        img = cv2.cvtColor(np.array(full_img), cv2.COLOR_RGB2BGR)
                         cv2.imwrite(os.path.join(output_dir, key, filename), img)
+
                         save_json_results(output_dir, None, None, None, None, image, img_path, key)
                         continue
 
-                    # convert the shape to (n, H, W)
+                    # Convert the shape to (n, H, W)
                     if masks.ndim == 4:
                         masks = masks.squeeze(1)
-                    
-                    # confidences = confidences.numpy().tolist()
-                    class_names = labels
-                    
-
-                    class_ids = np.array(list(range(len(class_names))))
 
                     """
-                    Visualize image with supervision useful API
+                    Filter out detections on cropped image that intersect with excavator detections on the full image.
                     """ 
+
                     annotated_frame = cv2.cvtColor(np.array(full_img), cv2.COLOR_RGB2BGR)
+
                     if key == "crop":
                         # Adjust coordinates of masks and boxes for full image
                         x_min, y_min, x_max, y_max = bbox["xmin"], bbox["ymin"], bbox["xmax"], bbox["ymax"]
                         adjusted_boxes = input_boxes.copy()
-                        adjusted_boxes[:, [0, 2]] += x_min  # Adjust x-coordinates
-                        adjusted_boxes[:, [1, 3]] += y_min  # Adjust y-coordinates
+                        adjusted_boxes[:, [0, 2]] += x_min 
+                        adjusted_boxes[:, [1, 3]] += y_min 
 
                         # Update mask positions to match full image coordinates
                         adjusted_masks = np.zeros((masks.shape[0], annotated_frame.shape[0], annotated_frame.shape[1]), dtype=bool)
@@ -287,13 +198,12 @@ def main(args):
                                                         iou_threshold=0.25,
                                                         exclude_keyword="excavator"
                                                     )
+                        
+                    """
+                    Visualize image with supervision useful API
+                    """ 
 
-                        # masks, input_boxes = adjusted_masks, adjusted_boxes
-                    
-                    # confidences = confidences.numpy().tolist()
                     class_names = labels
-                    
-
                     class_ids = np.array(list(range(len(class_names))))
 
                     detections = sv.Detections(
@@ -319,8 +229,6 @@ def main(args):
                     """
                     
                     save_json_results(output_dir, masks, scores, class_names, input_boxes, image, img_path, key)
-    
-    print(np.array(duration).mean(), "ms")
 
 
 if __name__ == "__main__":
@@ -335,7 +243,6 @@ if __name__ == "__main__":
                         if you would like to detect 'a cat', the token_spans should be '[[[0, 1], [2, 5]], ]', since 'a cat and a dog' [0:1] is 'a', and 'a cat and a dog' [2:5] is 'cat'. \
                         ")
     parser.add_argument("--input-dir", default="data/")
-    parser.add_argument("--video", type=bool, default=False)
     parser.add_argument("--sam2-checkpoint", default="ckpts/grounded_sam2/sam2.1_hiera_large.pt")
     parser.add_argument("--sam2-model-config", default="configs/sam2.1/sam2.1_hiera_l.yaml")
     parser.add_argument("--output-dir", default="outputs/GroundedSAM2/")
