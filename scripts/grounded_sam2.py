@@ -227,7 +227,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--groundingdino-model-config", default="configs/groundingdino/GroundingDINO_SwinT_OGC.py")
     parser.add_argument("--groundingdino-checkpoint", default="ckpts/grounding_dino/groundingdino_swint_ogc.pth")
-    parser.add_argument("--text-prompt", default="pipe. shovel. cable. tool. tube. large stone. barrier. an excavator digging a trench.")
+    parser.add_argument("--text-prompt", default="pipe. shovel. cable. tool. tube. single large stone. barrier.")
     parser.add_argument("--token-spans", default=None, help=
                         "The positions of start and end positions of phrases of interest. \
                         For example, a caption is 'a cat and a dog', \
