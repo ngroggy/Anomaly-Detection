@@ -18,7 +18,9 @@ import groundingdino.datasets.transforms as T
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from utils.groundingdino.inference import get_grounding_output
-from utils.general.dataloader import load_image, get_bbox, create_output_dir
+from utils.general.dataloader import load_image, get_bbox, create_output_dir, extractClassNames, createTextPrompts
+from utils.groundedsam2.tools.generate_tokenspans import get_token_positions
+from utils.groundedsam2.tools.helper_functions import filter_objects
 
 
 def print_classes(prompt, token_spans):
@@ -95,10 +97,18 @@ def main(args):
     # inputs
     # VERY important: text queries need to be lowercased + end with a dot
     prompt = args.text_prompt
-    token_spans = args.token_spans
+    # token_spans = args.token_spans
+
+    classes = extractClassNames(prompt)
+    textPrompt = " ".join(createTextPrompts(classes)) + " excavator shovel." + " excavator shovel filled with dirt, gravel and small stones." + " excavator arm." + " excavator shovel digging a trench."
+    classes.extend(["excavator shovel", "excavator arm"])
+    token_spans = get_token_positions(textPrompt, classes)
+    prompt = textPrompt
+
     if token_spans is not None:
         TEXT_THRESHOLD = None
         print_classes(prompt, token_spans)
+
     input_dir = args.input_dir
     DEVICE = "cuda" if torch.cuda.is_available() and not args.force_cpu else "cpu"
 
@@ -137,10 +147,15 @@ def main(args):
 
             bbox = get_bbox(img_path, input_dir)
 
+            if bbox is None:
+                print(f"No trench in {filename}, skipping.")
+                continue
+
             image, image_crop, image_black = load_image(img_path, saturation=saturation, contrast=contrast, sharpness=sharpness, bbox=bbox, cropped=True, black=True)
             image_dict = {"full": image, "crop": image_crop, "black": image_black}
             
             for key, image in image_dict.items():
+                
                 print(f"Processing image: {filename} - [{key}] \n")
 
                 transform = T.Compose(
@@ -160,27 +175,17 @@ def main(args):
                     grounding_model, image_transformed, prompt, BOX_THRESHOLD, TEXT_THRESHOLD, cpu_only=False, token_spans=eval(f"{token_spans}")
                 )
 
-                labels_copy = labels.copy()
-                removed = 0
-                for i, label in enumerate(labels):
-                    if "excavator shovel" in label:
-                        labels_copy.pop(i-removed)
-                        boxes = torch.cat((boxes[:(i-removed), :], boxes[(i-removed)+1:, :]))
-                        removed += 1
-
-                labels = labels_copy
-
                 # process the box prompt for SAM 2
                 h, w, _ = np.array(image).shape
                 boxes = boxes * torch.Tensor([w, h, w, h])
                 input_boxes = box_convert(boxes=boxes, in_fmt="cxcywh", out_fmt="xyxy").numpy()
-
 
                 # Segment the detected objects using SAM2 and save the output to the output directory
                 if input_boxes.size == 0:
                     print(f"No objects detected, skipping {filename} [{key}] for SAM2.")
 
                     # img = cv2.imread(img_path)
+                    image = image_dict["full"]
                     img = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
                     cv2.imwrite(os.path.join(output_dir, key, filename), img)
 
@@ -194,16 +199,30 @@ def main(args):
                         multimask_output=False,
                     )
 
+                    masks, input_boxes, labels = filter_objects(masks, input_boxes, labels, iou_threshold=0.95, exclude_keyword="excavator")
 
                     """
                     Post-process the output of the model to get the masks, scores, and logits for visualization
                     """
+                    if isinstance(masks, list):
+                        masks = np.array(masks)
+
+                    # Handle empty masks
+                    if masks.size == 0:
+                        print(f"No objects detected, skipping {filename} [{key}] for SAM2.")
+                        image = image_dict["full"]
+                        img = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
+                        cv2.imwrite(os.path.join(output_dir, key, filename), img)
+                        save_json_results(output_dir, None, None, None, None, image, img_path, key)
+                        continue
+
                     # convert the shape to (n, H, W)
                     if masks.ndim == 4:
                         masks = masks.squeeze(1)
                     
                     # confidences = confidences.numpy().tolist()
                     class_names = labels
+                    
 
                     class_ids = np.array(list(range(len(class_names))))
 
@@ -213,20 +232,45 @@ def main(args):
                     # img = cv2.imread(img_path)
                     img = cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
                     
-                    detections = sv.Detections(
-                        xyxy=input_boxes,  # (n, 4)
-                        mask=masks.astype(bool),  # (n, h, w)
-                        class_id=class_ids
-                    )
+                    full_image_cv = cv2.cvtColor(np.array(image_dict["full"]), cv2.COLOR_RGB2BGR)
+                    
+                    if key == "crop":
+                        # Adjust coordinates of masks and boxes for full image
+                        x_min, y_min, x_max, y_max = bbox["xmin"], bbox["ymin"], bbox["xmax"], bbox["ymax"]
+                        adjusted_boxes = input_boxes.copy()
+                        adjusted_boxes[:, [0, 2]] += x_min  # Adjust x-coordinates
+                        adjusted_boxes[:, [1, 3]] += y_min  # Adjust y-coordinates
 
+                        # Update mask positions to match full image coordinates
+                        adjusted_masks = np.zeros((masks.shape[0], full_image_cv.shape[0], full_image_cv.shape[1]), dtype=bool)
+                        for i, mask in enumerate(masks):
+                            adjusted_masks[i, y_min:y_max, x_min:x_max] = cv2.resize(
+                                mask.astype(np.uint8), (x_max - x_min, y_max - y_min)
+                            ).astype(bool)
+
+                        # Create detections object with adjusted coordinates
+                        detections = sv.Detections(
+                            xyxy=adjusted_boxes,
+                            mask=adjusted_masks,
+                            class_id=class_ids
+                        )
+                    else:
+                        detections = sv.Detections(
+                            xyxy=input_boxes,  # (n, 4)
+                            mask=masks.astype(bool),  # (n, h, w)
+                            class_id=class_ids
+                            )   
+
+                    
                     box_annotator = sv.BoxAnnotator(color=ColorPalette.DEFAULT)
-                    annotated_frame = box_annotator.annotate(scene=img.copy(), detections=detections)
+                    annotated_frame = box_annotator.annotate(scene=full_image_cv.copy(), detections=detections)
 
                     label_annotator = sv.LabelAnnotator(color=ColorPalette.DEFAULT)
                     annotated_frame = label_annotator.annotate(scene=annotated_frame, detections=detections, labels=labels)
 
                     mask_annotator = sv.MaskAnnotator(color=ColorPalette.DEFAULT)
                     annotated_frame = mask_annotator.annotate(scene=annotated_frame, detections=detections)
+ 
                     cv2.imwrite(os.path.join(output_dir, key, filename), annotated_frame)
 
 
@@ -242,11 +286,11 @@ if __name__ == "__main__":
     parser.add_argument("--groundingdino-model-config", default="configs/groundingdino/GroundingDINO_SwinT_OGC.py")
     parser.add_argument("--groundingdino-checkpoint", default="ckpts/grounding_dino/groundingdino_swint_ogc.pth")
     parser.add_argument("--text-prompt", default="pipe. shovel. cable. tool. tube. large stone. barrier. an excavator digging a trench.")
-    parser.add_argument("--token-spans", default=None,help=
+    parser.add_argument("--token-spans", default=None, help=
                         "The positions of start and end positions of phrases of interest. \
                         For example, a caption is 'a cat and a dog', \
-                        if you would like to detect 'cat', the token_spans should be '[[[2, 5]], ]', since 'a cat and a dog'[2:5] is 'cat'. \
-                        if you would like to detect 'a cat', the token_spans should be '[[[0, 1], [2, 5]], ]', since 'a cat and a dog'[0:1] is 'a', and 'a cat and a dog'[2:5] is 'cat'. \
+                        if you would like to detect 'cat', the token_spans should be '[[[2, 5]], ]', since 'a cat and a dog' [2:5] is 'cat'. \
+                        if you would like to detect 'a cat', the token_spans should be '[[[0, 1], [2, 5]], ]', since 'a cat and a dog' [0:1] is 'a', and 'a cat and a dog' [2:5] is 'cat'. \
                         ")
     parser.add_argument("--input-dir", default="data/")
     parser.add_argument("--sam2-checkpoint", default="ckpts/grounded_sam2/sam2.1_hiera_large.pt")

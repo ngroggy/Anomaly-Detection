@@ -56,8 +56,9 @@ def get_grounding_output(model, image, caption, box_threshold, text_threshold=No
             phrase = ' '.join([caption[_s:_e] for (_s, _e) in token_span])
             # get mask
             # if phrase=="single large rock":
-            #     filt_mask = logit_phr > 0.41
+            #     filt_mask = logit_phr > 0.4
             # else:
+            #     filt_mask = logit_phr > box_threshold
             filt_mask = logit_phr > box_threshold
             # filt box
             all_boxes.append(boxes[filt_mask])

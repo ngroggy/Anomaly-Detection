@@ -64,3 +64,30 @@ def create_output_dir(rerun, output_dir):
         os.makedirs(os.path.join(output_dir, key), exist_ok=True)
     
     return output_dir
+
+def extractClassNames(prompt):
+    classes = []
+    for desc in prompt.split('.'):
+        if desc.strip():
+            classes.append(desc.strip())
+
+    return classes
+
+trench_templates = [
+"a {} laying in a trench."
+]
+# trench_templates = [
+#     'a photo of the {} laying in a trench.',
+#     'a photo of a {} laying in a trench.',
+#     'a photo of the {} covered in dirt.',
+#     'a photo of a {} covered in dirt.',
+#     'a photo of the {} buried in dirt.',
+#     'a photo of a {} buried in dirt.',
+#     'a photo of the {} sticking out of dirt.',
+#     'a photo of a {} sticking out of dirt.',
+# ]
+def createTextPrompts(classes):
+    classes_engineered = []
+    for classname in classes:
+        classes_engineered.extend([template.format(classname) for template in trench_templates])
+    return classes_engineered
