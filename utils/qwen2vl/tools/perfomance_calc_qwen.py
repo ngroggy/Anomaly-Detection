@@ -25,7 +25,7 @@ def evaluate(output_json_path, detections_json_path):
         predicted_text = output_prompt_data.get(image_id, None)
         
         # Convert the prediction text to 0 or 1
-        predicted_anomaly = 0 if (predicted_text == "[]" or predicted_text == "[ ]") else 1 #or predicted_text == "[Gravel]" or predicted_text == "Gravel" or predicted_text == "[Excavator Bucket]" or predicted_text == "[Excavator]"
+        predicted_anomaly = 0 if (predicted_text == "[]" or predicted_text == "[ ]") else 1 
         
         total_images += 1
         if actual_anomaly == predicted_anomaly:
