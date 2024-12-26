@@ -19,6 +19,13 @@ def process_images(input_folder, filename, output_folder, saturation=1.0, contra
     # Get the bounding box of the trench
     bbox = get_bbox(img_path, input_folder)
 
+    if bbox is None:
+        print(f"No trench in {img_path}, skipping.")
+        image, _,_ = load_image(img_path, bbox, saturation=saturation, contrast=contrast, sharpness=sharpness)
+        image_path = os.path.join(output_folder, "full", filename)
+        cv2.imwrite(image_path, np.array(image))
+        return image_path, None, None
+
     # Load the image
     image, image_crop, image_black = load_image(img_path, bbox, saturation=saturation, contrast=contrast, sharpness=sharpness)
 
@@ -97,6 +104,8 @@ def main(args):
                                                                            contrast=contrast, 
                                                                            sharpness=sharpness)
             
+            if image_black_path is None and image_crop_path is None:
+                continue
 
             image_dict = {"full": image_path, "crop": image_crop_path, "black": image_black_path}
             print(f"Processing image: {filename}\n")
