@@ -39,9 +39,12 @@ def main(args):
     prompt = args.text_prompt
     prompt_engineering = args.prompt_engineering
 
-    filter_prompt = " "
-    classes, prompt, token_spans = generate_input(prompt, filter_classes = [], filter_prompt=filter_prompt, prompt_engineering=prompt_engineering)
-    print(prompt)
+    filter_prompt = " excavator shovel." + " excavator shovel filled with dirt, gravel and small stones." + " excavator arm." + " excavator shovel digging a trench."
+    classes, prompt, token_spans = generate_input(prompt, filter_classes = ["excavator shovel", "excavator arm"], filter_prompt=filter_prompt, prompt_engineering=prompt_engineering)
+
+    filter_prompt_finetune = "excavator shovel. excavator arm. excavator digging a trench. excavator."
+    _, finetune_prompt, finetune_tokenspans = generate_input(prompt, filter_classes = ["excavator"], filter_prompt=filter_prompt_finetune, prompt_engineering=prompt_engineering)
+
     if token_spans is not None:
         text_threshold = None
 
@@ -53,7 +56,7 @@ def main(args):
     print("\n\nLooking for: ", phrase[:-2] + ".", "\n\n")
 
     # outputs
-    output_dir = create_output_dir(rerun, args.output_dir)
+    output_dir = create_output_dir(rerun, args.output_dir, exclude_keys=["black"])
 
     # environment settings - use bfloat16
     torch.autocast(device_type=DEVICE, dtype=torch.float16).__enter__()
@@ -86,8 +89,8 @@ def main(args):
                 print(f"No trench in {filename}, skipping.")
                 continue
 
-            image, image_crop, image_black = load_image(img_path, saturation=saturation, contrast=contrast, sharpness=sharpness, bbox=bbox, cropped=True, black=True)
-            image_dict = {"full": image, "crop": image_crop, "black": image_black}
+            image, image_crop, _ = load_image(img_path, saturation=saturation, contrast=contrast, sharpness=sharpness, bbox=bbox, cropped=True, black=True)
+            image_dict = {"full": image, "crop": image_crop}
 
             full_img = image.copy()
 
@@ -108,9 +111,14 @@ def main(args):
 
                 image_transformed, _ = transform(image, None)
                 
-                boxes, labels = get_grounding_output(
-                    grounding_model, image_transformed, prompt, threshold, text_threshold, cpu_only=False, token_spans=eval(f"{token_spans}")
-                )
+                if key == "full":
+                    boxes, labels = get_grounding_output(
+                        grounding_model, image_transformed, finetune_prompt, 0.35, None, cpu_only=False, token_spans=eval(f"{finetune_tokenspans}")
+                    )
+                else:
+                    boxes, labels = get_grounding_output(
+                        grounding_model, image_transformed, prompt, threshold, text_threshold, cpu_only=False, token_spans=eval(f"{token_spans}")
+                    )
 
                 # Process the box prompt for SAM 2
                 h, w, _ = np.array(image).shape
@@ -144,8 +152,9 @@ def main(args):
                     Post-process the output of the model to get the masks, scores, and logits for visualization
                     """
 
-                    # # Remove detections of excavators 
-                    # masks, input_boxes, labels = filter_objects(masks, input_boxes, labels, iou_threshold=0.8, exclude_keyword="excavator")
+                    # Remove detections of excavators in cropped image
+                    if key == "crop":
+                        masks, input_boxes, labels = filter_objects(masks, input_boxes, labels, iou_threshold=0.8, exclude_keyword="excavator")
 
                     if isinstance(masks, list):
                         masks = np.array(masks)

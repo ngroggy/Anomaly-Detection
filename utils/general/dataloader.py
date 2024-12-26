@@ -12,6 +12,7 @@ def delete_files(*file_paths):
         except Exception as e:
             print(f"Error deleting {file_path}: {e}")
 
+
 def get_bbox(img_path, input_path):
     with open(os.path.join(input_path, "annotations.json"), "r") as f:
         data = json.load(f)
@@ -24,6 +25,7 @@ def get_bbox(img_path, input_path):
             return bbox
 
     return None
+
 
 def load_image(img_path, bbox, saturation=1.0, contrast=1.0, sharpness=1.0, cropped=False, black=False):
 
@@ -48,8 +50,8 @@ def load_image(img_path, bbox, saturation=1.0, contrast=1.0, sharpness=1.0, crop
 
     return image, image_crop, image_black
 
-def create_output_dir(rerun, output_dir):
 
+def create_output_dir(rerun, output_dir, exclude_keys=[]):
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     
@@ -61,6 +63,7 @@ def create_output_dir(rerun, output_dir):
         output_dir = Path(os.path.join(output_dir, f"{output_dir_length + 1:02d}"))
 
     for key in ["full", "crop", "black"]:
-        os.makedirs(os.path.join(output_dir, key), exist_ok=True)
+        if not (key in exclude_keys):
+            os.makedirs(os.path.join(output_dir, key), exist_ok=True)
     
     return output_dir

@@ -132,7 +132,7 @@ if __name__ == "__main__":
     parser.add_argument("--input-dir", default="data/")
     parser.add_argument("--output-dir", default="outputs/Clip/")
     parser.add_argument("--rerun", default=False)
-    parser.add_argument("--threshold",type=float, default=0.3)
+    parser.add_argument("--threshold",type=float, default=0.35)
     parser.add_argument("--saturation", type=float, default=1.0)
     parser.add_argument("--contrast", type=float, default=1.0)
     parser.add_argument("--sharpness", type=float, default=1.0)
