@@ -74,9 +74,12 @@ def get_token_positions(text, classes):
     return all_spans
 
 
-def generate_input(prompt, filter_prompt, filter_classes):
+def generate_input(prompt, filter_prompt, filter_classes, prompt_engineering = True):
         classes = extractClassNames(prompt)
-        prompt = " ".join(createTextPrompts(classes)) + filter_prompt
+        if prompt_engineering:
+            prompt = " ".join(createTextPrompts(classes)) + filter_prompt
+        else:
+            prompt = prompt + filter_prompt
         classes.extend(filter_classes)
         tokespans = get_token_positions(prompt, classes)
         return classes, prompt, tokespans
