@@ -3,6 +3,8 @@ import argparse
 
 
 def evaluate(output_json_path, detections_json_path):
+    import json
+
     # Load the output.json file (your ground truth anomalies data)
     with open(output_json_path, 'r') as file:
         output_data = json.load(file)
@@ -18,18 +20,34 @@ def evaluate(output_json_path, detections_json_path):
     incorrect_predictions_0_to_1 = 0
 
     # Iterate through the output data and compare with the detections
+    stones = 0
     for entry in output_data:
         image_id = entry['image_id']
         actual_anomaly = entry['anomaly']
 
         predicted_anomaly = None
-
+        
         # Check if there is a corresponding prediction in detections.json
         for detection_dict in detections_data:
             if detection_dict["image_path"] == "data/" + image_id:
-                predicted_anomaly = len(detection_dict['annotations']) > 0
+                # Check if the image ends with '_s.png'
+                if image_id.endswith("_s.png"):
+                    # Evaluate using all annotations as usual
+                    predicted_anomaly = len(detection_dict['annotations']) > 0
+                else:
+                    stones += 1
+                    filtered_annotations=[]
+                    # Evaluate excluding 'single large rock' detections
+                    if len(detection_dict['annotations']) == 0:
+                        predicted_anomaly = False
+                    else:
+                        for class_name in detection_dict['annotations'][0]['class_names']:
+                            if "single large rock" not in class_name:
+                                filtered_annotations.extend([class_name])
+                        predicted_anomaly = len(filtered_annotations) > 0
                 break
         
+
         if predicted_anomaly is not None:  # If there's a prediction
             total_images += 1
             if actual_anomaly == predicted_anomaly:
@@ -38,8 +56,9 @@ def evaluate(output_json_path, detections_json_path):
                 incorrect_predictions_1_to_0 += 1
             elif actual_anomaly == 0 and predicted_anomaly == 1:
                 incorrect_predictions_0_to_1 += 1
-
+    print("Removed stones: ", stones)
     return total_images, correct_predictions, incorrect_predictions_1_to_0, incorrect_predictions_0_to_1
+
 
 
 if __name__ == '__main__':
