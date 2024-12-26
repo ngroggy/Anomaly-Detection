@@ -37,12 +37,13 @@ def main(args):
 
     # VERY important: text queries need to be lowercased + end with a dot
     prompt = args.text_prompt
+    prompt_engineering = args.prompt_engineering
 
     filter_prompt = " excavator shovel." + " excavator shovel filled with dirt, gravel and small stones." + " excavator arm." + " excavator shovel digging a trench."
-    classes, prompt, token_spans = generate_input(prompt, filter_classes = ["excavator shovel", "excavator arm"], filter_prompt=filter_prompt)
+    classes, prompt, token_spans = generate_input(prompt, filter_classes = ["excavator shovel", "excavator arm"], filter_prompt=filter_prompt, prompt_engineering=prompt_engineering)
 
     filter_prompt_finetune = "excavator shovel. excavator arm. excavator digging a trench. excavator."
-    _, finetune_prompt, finetune_tokenspans = generate_input(prompt, filter_classes = ["excavator"], filter_prompt=filter_prompt_finetune)
+    _, finetune_prompt, finetune_tokenspans = generate_input(prompt, filter_classes = ["excavator"], filter_prompt=filter_prompt_finetune, prompt_engineering=prompt_engineering)
 
     if token_spans is not None:
         text_threshold = None
@@ -237,6 +238,7 @@ if __name__ == "__main__":
     parser.add_argument("--groundingdino-model-config", default="configs/groundingdino/GroundingDINO_SwinT_OGC.py")
     parser.add_argument("--groundingdino-checkpoint", default="ckpts/grounding_dino/groundingdino_swint_ogc.pth")
     parser.add_argument("--text-prompt", default="pipe. shovel. cable. tool. tube. single large stone. barrier.")
+    parser.add_argument("--prompt-engineering", default=True)
     parser.add_argument("--token-spans", default=None, help=
                         "The positions of start and end positions of phrases of interest. \
                         For example, a caption is 'a cat and a dog', \
@@ -247,8 +249,8 @@ if __name__ == "__main__":
     parser.add_argument("--sam2-checkpoint", default="ckpts/grounded_sam2/sam2.1_hiera_large.pt")
     parser.add_argument("--sam2-model-config", default="configs/sam2.1/sam2.1_hiera_l.yaml")
     parser.add_argument("--output-dir", default="outputs/GroundedSAM2/")
-    parser.add_argument("--text-threshold",type=float, default=0.35)
-    parser.add_argument("--box-threshold",type=float, default=0.35)
+    parser.add_argument("--text-threshold",type=float, default=0.30)
+    parser.add_argument("--box-threshold",type=float, default=0.30)
     parser.add_argument("--rerun", default=False)
     parser.add_argument("--saturation", type=float, default=1.0)
     parser.add_argument("--contrast", type=float, default=1.0)
