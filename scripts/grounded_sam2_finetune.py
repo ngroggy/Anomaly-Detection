@@ -235,7 +235,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--groundingdino-model-config", default="configs/groundingdino/GroundingDINO_SwinT_OGC.py")
+    parser.add_argument("--groundingdino-model-config", default="utils/groundingdino/GroundingDINO_SwinT_OGC.py")
     parser.add_argument("--groundingdino-checkpoint", default="ckpts/grounding_dino/groundingdino_swint_ogc.pth")
     parser.add_argument("--text-prompt", default="pipe. shovel. cable. tool. tube. single large stone. barrier.")
     parser.add_argument("--prompt-engineering", default=True)
